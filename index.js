@@ -10,7 +10,7 @@ const returnLastTwoDrivers = function (drivers) {
 
 const selectingDrivers = [returnFirstTwoDrivers,returnLastTwoDrivers]
 
-function createFareMultiplier(integer) {
+function createFareMultiplier(multiplier) {
   //returns a function that will multiply a fare for a ride accordingly. If createFareMultiplier() receives an argument of 4, it will return a function that takes in a fare as an argument and quadruples the fare.
   return function() {
 
