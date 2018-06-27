@@ -17,10 +17,10 @@ function createFareMultiplier(multiplier) {
 };
 
 const fareDoubler = createFareMultiplier(2);
-fareDoubler(5);
+//fareDoubler(5);
 
 const fareTripler = createFareMultiplier(3);
-fareDoubler(5);
+//fareDoubler(5);
 
 
 const selectDifferentDrivers = function (drivers,selector) {
