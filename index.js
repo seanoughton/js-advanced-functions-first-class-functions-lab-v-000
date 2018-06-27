@@ -1,6 +1,4 @@
 // Code your solution in this file!
 function returnFirstTwoDrivers(drivers) {
-  for (const element of drivers) {
-    console.log(element);
-  }
+  return drivers.slice(0, 2);
 }
